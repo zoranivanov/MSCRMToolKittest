@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MSCRMToolKit.About" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABEAEAyAAAACAAAkAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>About.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.AuditExport" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>dTWCFSG4oKDgEhUKISCYgQMjgAghEEyggmJUIyBAICk=</HashCode>
+      <FileName>AuditExport\AuditExport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.CheckListBoxItem" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>AuditExport\AuditExport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.ActionListBoxItem" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>AuditExport\AuditExport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.EntityListBoxItem" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAgAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>AuditExport\AuditExport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.ControlEnabled" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AuditExport\AuditExport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.AuditExportDetails" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAQACAAAAAAIFGACEgCAAAAEAAAACAAIAAAACA=</HashCode>
+      <FileName>AuditExport\AuditExportDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.DataExport" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RyCCEAGoAKCAABQAADCQgSMDgAghEAwEYiAQCyIAACk=</HashCode>
+      <FileName>DataExport\DataExport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.DataExportReportViewer" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RQCGBAAAACAAgBAAAACKwCECCAgAAAEAAiAAAAAAACA=</HashCode>
+      <FileName>DataExport\DataExportReportViewer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.DeploymentProperties" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BSCEABAAgDAgABQAAEDBBAACAggIAAgAAuAgAAACQCE=</HashCode>
+      <FileName>DeploymentProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.DiagramBuilder" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAUMUEABAEMEgABAABgACBAgIAxACAAARAAAA=</HashCode>
+      <FileName>EntitiesStructureExport\DiagramBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.EntitiesStructureExport" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DSCAIABQASAkABQYpEiyDiBCsQknlE8EAiAABQoACCU=</HashCode>
+      <FileName>EntitiesStructureExport\EntitiesStructureExport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.FormAndFields" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntitiesStructureExport\EntitiesStructureExport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.MSCRMToolKit" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQiBDf8ABCKAEgQQEYSyAMAKQQ4gyACAAgghIACAQ4Y=</HashCode>
+      <FileName>MSCRMToolKit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.NtoNAssociationsTransporter" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BTyiFAmgCKIAADaiAOCQoQMngAyjoA4gIiAOGSQAMTE=</HashCode>
+      <FileName>NtoNAssociationsTransporter\NtoNAssociationsTransporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.NtoNTransportReportViewer" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RWCGBBAICCAAIhBCAAKCRAACSAoAAAACAqABDCIAACA=</HashCode>
+      <FileName>NtoNAssociationsTransporter\NtoNTransportReportViewer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.NtoNTransportImportFailuresReportViewer" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAADAIAACBABCAACACAAgwAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NtoNAssociationsTransporter\NtoNTransportsImportFailuresReportViewer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.Program" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.PropertyComparer&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAIABAAAAAAAAAAAAIAIAAABBAAAAAAA=</HashCode>
+      <FileName>PropertyComparer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MSCRMToolKit.RecordsCounter" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BSAAQAAhAKAgABRCgECBAagCAAAAkAgAAiBIIQQAFCE=</HashCode>
+      <FileName>RecordsCounter\RecordsCounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.RecordLine" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAABAAAAAABAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>RecordsCounter\RecordsCounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.RecordsCounterFilterWizard" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAABAAAKAAAAAAIFGAAEgCAAAAAACAAAAAEAAAACA=</HashCode>
+      <FileName>RecordsCounter\RecordsCounterFilterWizard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.SetupIgnoredAttributes" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAACAAAAAAIFGAAEgCAAAAAACAACEAIAAAADA=</HashCode>
+      <FileName>ReferenceDataTransporter\EntityTransportDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.RecordsMapping" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACgABAACACQAQBKECCACACIAiAEBAAACAACAgAADA=</HashCode>
+      <FileName>ReferenceDataTransporter\RecordsMapping.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.ReferenceDataTransporter" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BSyiFEiwGaIgADYqAOCQoQMvgAyjgQ4gIiAGKSQAETE=</HashCode>
+      <FileName>ReferenceDataTransporter\ReferenceDataTransporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.TransportImportFailuresReportViewer" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAADAIAACBABCAACACAAgwAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReferenceDataTransporter\TransportImportFailuresReportViewer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.TransportReportViewer" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RWCGBBAICCAAIBBCAAKCRAACSAoAAAACAqAADCIAACA=</HashCode>
+      <FileName>ReferenceDataTransporter\TransportReportViewer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.SolutionsImportJobsViewer" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BSiAAmAAACAEEBUAAECiAQACAAgAAAgAAiQAAQAABCE=</HashCode>
+      <FileName>SolutionsTransporter\SolutionsImportJobsViewer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.MSCRMSolutionImportJob" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAEQABAAAQCAAAAAAAAAAAAAAAAABAIAQAAAAAAA=</HashCode>
+      <FileName>SolutionsTransporter\SolutionsImportJobsViewer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.SolutionsTransporter" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BWyCFBmsBKCAADYiAOLQoQMPhQ46kSggYmAGKaWAISE=</HashCode>
+      <FileName>SolutionsTransporter\SolutionsTransporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.SortableBindingList&lt;T&gt;" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABgAAAAAAAEABgAAAACBAAAEIAAgAAAABAAAAEAA=</HashCode>
+      <FileName>SortableBindingList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.Test" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JYiAAAgYACohABQAAFCRAAACIAEIAAgAAmAAAQAAAAE=</HashCode>
+      <FileName>Test.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.WorkflowExecution" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ZSCCEAgoAKCAABQCBDCQgQMDgAghAAwAAiAAASBAACE=</HashCode>
+      <FileName>WorkflowExecution.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.Properties.Resources" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCRMToolKit.Properties.Settings" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlEditor" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAAAAAECAAAAAgAACAEAgKAQAAEAAQAAAYCAAAAAA=</HashCode>
+      <FileName>XmlEditor\XmlEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RichTextDrawing" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAABAAAAAAAAAAACAAEAAA=</HashCode>
+      <FileName>XmlEditor\XmlEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlToken" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAIAQEACAABAAA=</HashCode>
+      <FileName>XmlEditor\XmlToken.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XmlTokenizer" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>XmlEditor\XmlTokenizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="XmlTokenType" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAIACAAAAAAgAAAAAAAAAAAAAgAAgAAEAAAA=</HashCode>
+      <FileName>XmlEditor\XmlToken.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

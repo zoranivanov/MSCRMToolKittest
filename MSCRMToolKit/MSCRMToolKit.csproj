@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{96DD93DB-048E-4F00-B033-569873E28C29}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MSCRMToolKit</RootNamespace>
+    <AssemblyName>MSCRMToolKit</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\MSCRMToolKit.XML</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LogManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\LogManager.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Crm.Sdk.Proxy, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Microsoft.Crm.Sdk.Proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="microsoft.office.interop.visio, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>microsoft.office.interop.visio.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xrm.Sdk, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Microsoft.Xrm.Sdk.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xrm.Sdk.Deployment, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Microsoft.Xrm.Sdk.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="MSCRMConnectionsManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\MSCRMConnectionsManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AuditExport\AuditExport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AuditExport\AuditExport.Designer.cs">
+      <DependentUpon>AuditExport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AuditExport\AuditExportDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AuditExport\AuditExportDetails.Designer.cs">
+      <DependentUpon>AuditExportDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataExport\DataExport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataExport\DataExport.Designer.cs">
+      <DependentUpon>DataExport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataExport\DataExportReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataExport\DataExportReportViewer.Designer.cs">
+      <DependentUpon>DataExportReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EntitiesStructureExport\DiagramBuildingProperties.cs" />
+    <Compile Include="EntitiesStructureExport\DiagramBuilder.cs" />
+    <Compile Include="EntitiesStructureExport\EntitiesStructureExport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EntitiesStructureExport\EntitiesStructureExport.Designer.cs">
+      <DependentUpon>EntitiesStructureExport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MSCRMToolKit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MSCRMToolKit.Designer.cs">
+      <DependentUpon>MSCRMToolKit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NtoNAssociationsTransporter\NtoNAssociationsTransporter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NtoNAssociationsTransporter\NtoNAssociationsTransporter.Designer.cs">
+      <DependentUpon>NtoNAssociationsTransporter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NtoNAssociationsTransporter\NtoNTransportReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NtoNAssociationsTransporter\NtoNTransportReportViewer.Designer.cs">
+      <DependentUpon>NtoNTransportReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NtoNAssociationsTransporter\NtoNTransportsImportFailuresReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NtoNAssociationsTransporter\NtoNTransportsImportFailuresReportViewer.Designer.cs">
+      <DependentUpon>NtoNTransportsImportFailuresReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropertyComparer.cs" />
+    <Compile Include="RecordsCounter\RecordsCounter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecordsCounter\RecordsCounter.Designer.cs">
+      <DependentUpon>RecordsCounter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecordsCounter\RecordsCounterFilterWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecordsCounter\RecordsCounterFilterWizard.Designer.cs">
+      <DependentUpon>RecordsCounterFilterWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReferenceDataTransporter\RecordsMapping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReferenceDataTransporter\RecordsMapping.Designer.cs">
+      <DependentUpon>RecordsMapping.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReferenceDataTransporter\ReferenceDataTransporter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReferenceDataTransporter\ReferenceDataTransporter.Designer.cs">
+      <DependentUpon>ReferenceDataTransporter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReferenceDataTransporter\EntityTransportDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReferenceDataTransporter\EntityTransportDetails.Designer.cs">
+      <DependentUpon>EntityTransportDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReferenceDataTransporter\TransportImportFailuresReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReferenceDataTransporter\TransportImportFailuresReportViewer.Designer.cs">
+      <DependentUpon>TransportImportFailuresReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReferenceDataTransporter\TransportReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReferenceDataTransporter\TransportReportViewer.Designer.cs">
+      <DependentUpon>TransportReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeploymentProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeploymentProperties.Designer.cs">
+      <DependentUpon>DeploymentProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SolutionsTransporter\SolutionsTransporter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SolutionsTransporter\SolutionsTransporter.Designer.cs">
+      <DependentUpon>SolutionsTransporter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SolutionsTransporter\SolutionsImportJobsViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SolutionsTransporter\SolutionsImportJobsViewer.Designer.cs">
+      <DependentUpon>SolutionsImportJobsViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SortableBindingList.cs" />
+    <Compile Include="WorkflowExecution.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkflowExecution.Designer.cs">
+      <DependentUpon>WorkflowExecution.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XmlEditor\XmlEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XmlEditor\XmlEditor.designer.cs">
+      <DependentUpon>XmlEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XmlEditor\XmlToken.cs" />
+    <Compile Include="XmlEditor\XmlTokenizer.cs" />
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AuditExport\AuditExport.resx">
+      <DependentUpon>AuditExport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AuditExport\AuditExportDetails.resx">
+      <DependentUpon>AuditExportDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataExport\DataExport.resx">
+      <DependentUpon>DataExport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataExport\DataExportReportViewer.resx">
+      <DependentUpon>DataExportReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EntitiesStructureExport\EntitiesStructureExport.resx">
+      <DependentUpon>EntitiesStructureExport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MSCRMToolKit.resx">
+      <DependentUpon>MSCRMToolKit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NtoNAssociationsTransporter\NtoNAssociationsTransporter.resx">
+      <DependentUpon>NtoNAssociationsTransporter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NtoNAssociationsTransporter\NtoNTransportReportViewer.resx">
+      <DependentUpon>NtoNTransportReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NtoNAssociationsTransporter\NtoNTransportsImportFailuresReportViewer.resx">
+      <DependentUpon>NtoNTransportsImportFailuresReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RecordsCounter\RecordsCounter.resx">
+      <DependentUpon>RecordsCounter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecordsCounter\RecordsCounterFilterWizard.resx">
+      <DependentUpon>RecordsCounterFilterWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReferenceDataTransporter\RecordsMapping.resx">
+      <DependentUpon>RecordsMapping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReferenceDataTransporter\ReferenceDataTransporter.resx">
+      <DependentUpon>ReferenceDataTransporter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReferenceDataTransporter\EntityTransportDetails.resx">
+      <DependentUpon>EntityTransportDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReferenceDataTransporter\TransportImportFailuresReportViewer.resx">
+      <DependentUpon>TransportImportFailuresReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReferenceDataTransporter\TransportReportViewer.resx">
+      <DependentUpon>TransportReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeploymentProperties.resx">
+      <DependentUpon>DeploymentProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SolutionsTransporter\SolutionsTransporter.resx">
+      <DependentUpon>SolutionsTransporter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SolutionsTransporter\SolutionsImportJobsViewer.resx">
+      <DependentUpon>SolutionsImportJobsViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkflowExecution.resx">
+      <DependentUpon>WorkflowExecution.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Properties\DataSources\ImportFailure.datasource" />
+    <None Include="Properties\DataSources\MSCRMReport.datasource" />
+    <None Include="Properties\DataSources\MSCRMSolution.datasource" />
+    <None Include="Properties\DataSources\MSCRMSolutionImportJob.datasource" />
+    <None Include="Properties\DataSources\NtoNRelationship.datasource" />
+    <None Include="Properties\DataSources\NtoNTransportReportLine.datasource" />
+    <None Include="Properties\DataSources\RecordLine.datasource" />
+    <None Include="Properties\DataSources\RecordMapping.datasource" />
+    <None Include="Properties\DataSources\TransportReportLine.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lib\LogManager.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Microsoft.Crm.Sdk.Proxy.dll" />
+    <Content Include="lib\Microsoft.IdentityModel.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\microsoft.office.interop.visio.dll" />
+    <Content Include="lib\Microsoft.Xrm.Sdk.Deployment.dll" />
+    <Content Include="lib\Microsoft.Xrm.Sdk.dll" />
+    <Content Include="lib\MSCRMConnectionsManager.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MSCRMAuditExportManager\MSCRMAuditExportManager.csproj">
+      <Project>{784C0255-621C-4C86-94C5-A7D260F0F32D}</Project>
+      <Name>MSCRMAuditExportManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MSCRMDataExportManager\MSCRMDataExportManager.csproj">
+      <Project>{86811B7D-4AF7-4A1B-A624-A7AB46689A83}</Project>
+      <Name>MSCRMDataExportManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MSCRMNtoNRelationshipsTransportManager\MSCRMNtoNAssociationsTransportManager.csproj">
+      <Project>{2016a3c2-f251-44b9-9910-3591265881e9}</Project>
+      <Name>MSCRMNtoNAssociationsTransportManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MSCRMSolutionsTransportManager\MSCRMSolutionsTransportManager.csproj">
+      <Project>{9663E681-41C9-4F6B-82C0-F214A246CDEE}</Project>
+      <Name>MSCRMSolutionsTransportManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MSCRMToolkit.Framework\MSCRMToolkit.Framework.csproj">
+      <Project>{b216ee06-cbbf-4455-80f4-a655eee73ce1}</Project>
+      <Name>MSCRMToolkit.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MSCRMTransportationProfilesManager\MSCRMTransportationProfilesManager.csproj">
+      <Project>{7B241090-9C55-4A4B-BFE8-BD2CDB013FE5}</Project>
+      <Name>MSCRMTransportationProfilesManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MSCRMWorkflowExecutionManager\MSCRMWorkflowExecutionManager.csproj">
+      <Project>{328BD232-1000-4027-ABBF-A0007550ED8C}</Project>
+      <Name>MSCRMWorkflowExecutionManager</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
